@@ -21,3 +21,10 @@ employee.sort(function(a,b){
     return a.salary-b.salary;
 })
 console.log(employee);
+
+
+
+const number=[3,4,5,6];
+number.forEach((y)=>{
+    console.log(y*2);
+})
